@@ -9,5 +9,7 @@ Descripción personal de cada uno de los miembros del equipo:
 
 - Edwin Marin Ballesteros
 
+- Santiago Medina Trujillo
+
 Realizando pruebas en Git
 
