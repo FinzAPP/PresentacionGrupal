@@ -16,19 +16,21 @@ public class EmpresaController {
     //Query Params
     @GetMapping("/empresas")
     public String getEmpresas() {
+        //Me devuelve todas las empresas existentes
         return "ejemplo de retorno";
     }
 
     //Path Params
-    @GetMapping("/empresas/[id]")
-    public String getEmpresas2() {
+    @GetMapping("/empresas/{id}")
+    public String getEmpresa() {
+        //Me devuelve una empresa en específico
         return "ejemplo de retorno";
     }
 
     //Query Params
-    @PostMapping("/postEmpresa")
-    public void postEmpresas(){
-        //TODO
+    @PostMapping("/empresa")
+    public void setEmpresa(){
+        //Me agrega una empresa
     }
 
 

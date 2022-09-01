@@ -7,14 +7,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EmpleadoController {
 
-    @GetMapping("/empleado")
-    public String getEmpleado() { return "ejemplo de retorno"; }
-
-    @PostMapping("/postEmpleado")
-    public void postEmpresa(){
-        //TODO
+    @GetMapping("/empleados")
+    public String getEmpleados() {
+        //Me devuelve todos los empleados
+        return "ejemplo de retorno";
     }
 
-    @GetMapping("/empleado/[id]")
-    public String getEmpleado2() { return "ejemplo de retorno"; }
+    @GetMapping("/empleado/{id}")
+    public String getEmpleado() {
+        //Me devuelve un solo empleado
+        return "ejemplo de retorno";
+    }
+
+    @PostMapping("/empleado")
+    public void setEmpleado(){
+        //Me ingresa un nuevo empleado
+    }
+
+
 }

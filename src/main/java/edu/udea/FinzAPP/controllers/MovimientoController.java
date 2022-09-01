@@ -5,22 +5,22 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class MovimientoController {
 
-    @GetMapping("/getMovimiento/[id]")
+    @GetMapping("/movimiento/{id}")
     public void getMovimiento(){
         //TODO
     }
 
-    @PostMapping("/postMovimiento/[id]")
+    @PostMapping("/movimiento/{id}")
     public void postMovimiento(){
         //TODO
     }
 
-    @PatchMapping("/patchMovimiento/[id]")
+    @PatchMapping("/movimiento/{id}")
     public void patchMovimiento(){
         //TODO
     }
 
-    @DeleteMapping("/deleteMovimiento/[id]")
+    @DeleteMapping("/movimiento/{id}")
     public void deleteMovimiento(){
         //TODO
     }
