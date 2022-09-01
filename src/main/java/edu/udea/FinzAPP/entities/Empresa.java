@@ -17,7 +17,7 @@ public class Empresa {
 
 
     //CONSTRUCTORES:
-    Empresa(String nombre, String direccion, String telefono, int nit){
+    public Empresa(String nombre, String direccion, String telefono, int nit){
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
